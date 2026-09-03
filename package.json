@@ -1,0 +1,21 @@
+{
+  "name": "daily-idea-mailer",
+  "version": "1.0.0",
+  "description": "A small automated system that sends you **one coding project idea every day** by email — with helpful links, a mini cheatsheet, and example code you could use. The goal: you don't have to search for project ideas yourself anymore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacsCore/daily-idea-mailer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PacsCore/daily-idea-mailer/issues"
+  },
+  "homepage": "https://github.com/PacsCore/daily-idea-mailer#readme"
+}
