@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PacsCore/daily-idea-mailer/issues"
   },
-  "homepage": "https://github.com/PacsCore/daily-idea-mailer#readme"
+  "homepage": "https://github.com/PacsCore/daily-idea-mailer#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
