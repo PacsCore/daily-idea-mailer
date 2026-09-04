@@ -88,7 +88,7 @@ function buildEmailHtml(parts) {
         "api-key": process.env.BREVO_API_KEY,
       },
       body: JSON.stringify({
-        sender: { name: "Daily Idea Mailer", email: "achacoso.enrique@protonmail.com" },
+        sender: { name: "Daily Idea Mailer", email: "enriquecore.dev@gmail.com" },
         to: [{ email: "achacoso.enrique@protonmail.com", name: "Enrique" }],
         subject: `Today's coding idea: ${parts.idea}`,
         htmlContent: buildEmailHtml(parts),
