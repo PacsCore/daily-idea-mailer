@@ -92,11 +92,11 @@ sitting, and each one gives you something to commit to GitHub.
 
 ## Progress
 
-- [ ] Step 1 — Repo setup
-- [ ] Step 2 — Test content source
-- [ ] Step 3 — Connect Gemini
-- [ ] Step 4 — Add history file
-- [ ] Step 5 — Connect Brevo
-- [ ] Step 6 — Combine everything
-- [ ] Step 7 — Automate with GitHub Actions
+- [x] Step 1 — Repo setup
+- [x] Step 2 — Test content source
+- [x] Step 3 — Connect Gemini
+- [x] Step 4 — Add history file
+- [x] Step 5 — Connect Brevo
+- [x] Step 6 — Combine everything
+- [x] Step 7 — Automate with GitHub Actions
 - [ ] Step 8 — Test and polish
