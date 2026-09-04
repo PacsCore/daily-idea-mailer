@@ -99,4 +99,4 @@ sitting, and each one gives you something to commit to GitHub.
 - [x] Step 5 — Connect Brevo
 - [x] Step 6 — Combine everything
 - [x] Step 7 — Automate with GitHub Actions
-- [ ] Step 8 — Test and polish
+- [x] Step 8 — Test and polish
