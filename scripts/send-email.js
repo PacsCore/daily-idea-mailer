@@ -9,7 +9,7 @@ async function sendTestEmail() {
     body: JSON.stringify({
         sender: {
             name: "Daily Idea Mailer",
-            email: "achacoso.enrique@protonmail.com"
+            email: "enriquecore.dev@gmail.com"
         },
         to: [
             {
