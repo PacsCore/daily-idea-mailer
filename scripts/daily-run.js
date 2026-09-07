@@ -102,6 +102,26 @@ function buildEmailHtml(parts) {
     return data;
   }
   
+  async function sendErrorEmail(errorMessage) {
+    try {
+      await fetch("https://api.brevo.com/v3/smtp/email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "api-key": process.env.BREVO_API_KEY,
+        },
+        body: JSON.stringify({
+          sender: { name: "Daily Idea Mailer", email: "enriquecore.dev@gmail.com" },
+          to: [{ email: "achacoso.enrique@protonmail.com", name: "Enrique" }],
+          subject: "⚠️ Daily Idea Mailer failed, no idea today!",
+          htmlContent: `<p>Today's automated run failed with this error:</p><p>${errorMessage}</p>`,
+        }),
+      });
+    } catch (error) {
+      console.error("Failed to send error email:", error.message);
+    }
+  }
+
   async function run() {
     try {
       console.log("Generating idea...");
@@ -119,6 +139,7 @@ function buildEmailHtml(parts) {
       console.log("Done! Idea sent:", parts.idea);
     } catch (error) {
       console.error("Run failed:", error.message);
+      await sendErrorEmail(error.message);
     }
   }
   
