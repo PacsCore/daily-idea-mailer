@@ -102,5 +102,9 @@
   {
     "date": "2026-10-05",
     "idea": "Local Structured File Prettifier"
+  },
+  {
+    "date": "2026-10-06",
+    "idea": "Local Markdown Editor"
   }
 ]
