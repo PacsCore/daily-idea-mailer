@@ -110,5 +110,9 @@
   {
     "date": "2026-10-07",
     "idea": "Regex Leak Scanner Playground"
+  },
+  {
+    "date": "2026-10-08",
+    "idea": "Network Request Resilience Demo"
   }
 ]
