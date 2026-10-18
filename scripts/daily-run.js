@@ -89,7 +89,7 @@ function buildEmailHtml(parts) {
       },
       body: JSON.stringify({
         sender: { name: "Daily Idea Mailer", email: "enriquecore.dev@gmail.com" },
-        to: [{ email: "achacoso.enrique@protonmail.com", name: "Enrique" }],
+        to: [{ email: "achacoso.enrique@gmail.com", name: "Enrique" }],
         subject: `Today's coding idea: ${parts.idea}`,
         htmlContent: buildEmailHtml(parts),
       }),
@@ -112,7 +112,7 @@ function buildEmailHtml(parts) {
         },
         body: JSON.stringify({
           sender: { name: "Daily Idea Mailer", email: "enriquecore.dev@gmail.com" },
-          to: [{ email: "achacoso.enrique@protonmail.com", name: "Enrique" }],
+          to: [{ email: "achacoso.enrique@gmail.com", name: "Enrique" }],
           subject: "⚠️ Daily Idea Mailer failed, no idea today!",
           htmlContent: `<p>Today's automated run failed with this error:</p><p>${errorMessage}</p>`,
         }),
