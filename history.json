@@ -90,5 +90,61 @@
   {
     "date": "2026-10-02",
     "idea": "Browser File System Explorer"
+  },
+  {
+    "date": "2026-10-03",
+    "idea": "Web Worker Offloader Demo"
+  },
+  {
+    "date": "2026-10-04",
+    "idea": "Secure Local File Editor"
+  },
+  {
+    "date": "2026-10-05",
+    "idea": "Local Structured File Prettifier"
+  },
+  {
+    "date": "2026-10-06",
+    "idea": "Local Markdown Editor"
+  },
+  {
+    "date": "2026-10-07",
+    "idea": "Regex Leak Scanner Playground"
+  },
+  {
+    "date": "2026-10-08",
+    "idea": "Network Request Resilience Demo"
+  },
+  {
+    "date": "2026-10-09",
+    "idea": "Responsive Image Filter"
+  },
+  {
+    "date": "2026-10-10",
+    "idea": "Responsive Typeahead/Search"
+  },
+  {
+    "date": "2026-10-11",
+    "idea": "Network Request Lifecycle Visualizer"
+  },
+  {
+    "date": "2026-10-12",
+    "idea": "Cross-Time Zone Event Planner"
+  },
+  {
+    "date": "2026-10-14",
+    "idea": "In-Browser AI Text Assistant"
+  },
+  {
+    "date": "2026-10-15",
+    "idea": "In-Browser Image Object Classifier"
+  },
+  {
+    "date": "2026-10-16",
+    "idea": "Compound Interest Simulator"
+  },
+  {
+    "date": "2026-10-18",
+    "idea": "Unique Item Grid Generator"
   }
 ]
