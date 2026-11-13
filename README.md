@@ -4,6 +4,8 @@ A small automated system that sends you **one coding project idea every day** by
 email — with helpful links, a mini cheatsheet, and example code you could use.
 The goal: you don't have to search for project ideas yourself anymore.
 
+EDIT: Replace the current Email to your Email
+
 ---
 
 ## How it works (simple version)
